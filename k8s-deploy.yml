@@ -114,6 +114,7 @@ spec:
     targetPort: http
   selector:
     k8s-app: metrics-server
+type: LoadBalancer
 ---
 apiVersion: apps/v1
 kind: Deployment
